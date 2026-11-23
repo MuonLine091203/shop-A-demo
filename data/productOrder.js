@@ -1,0 +1,1 @@
+export let productOrder = JSON.parse(localStorage.getItem('productOrder'))

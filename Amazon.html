@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="Amazon.css">
+  <script type="module" src="script/HTML.js" defer></script>
+  <title>Amazon Page</title>
+</head>
+<body>
+  <header class="top-page">
+    <div class="left">
+      <a href="Amazon.html">
+        <img class="amazon-log" src="images/amazon-logo-white.png">
+        <img class="amazon-log-mobile" src="images/amazon-mobile-logo-white.png">
+      </a>
+    </div>
+    <div class="mid">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="button-search-icon">
+        <img class="img-search-icon" src="images/icons/search-icon.png"> 
+      </button>
+    </div>
+    <div class="right">
+      <a href="./Order.html">
+        <div class="returns-orders">
+          <span style="font-size:13px;">Returns</span><br>
+          <b style="white-space: nowrap;">& Orders</b>
+        </div>
+      </a>
+      <a href="checkout.html" class="cart-view">
+        <img class="cart-icon" src="images/icons/cart-icon.png">
+        <p class="order-count"></p>
+        <p class="cart">Cart</p>
+        <img class="scroll" src="images/icons/hamburger-menu.png">
+      </a>
+      <div class="scroll-menu">
+        <button class="scroll-menu-element">Returns & Orders</button>
+        <button class="scroll-menu-element">
+          Cart(<span class="js-scroll-menu-order-count"></span>)
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="market js-market" >
+  </div>
+</body>
+</html>
